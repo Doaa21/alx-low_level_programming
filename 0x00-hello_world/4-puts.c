@@ -1,4 +1,4 @@
-"#!/bin/bash"
+1 #!/bin/bash
 #include<stdio.h>
 /**
  * main -  entry point
