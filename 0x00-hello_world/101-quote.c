@@ -1,5 +1,5 @@
-#!/bin/bash,
-
+1 #!/bin/bash
+2
 #include <stdio.h>
 #include <unistd.h>
 /**

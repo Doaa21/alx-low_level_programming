@@ -1,2 +1,3 @@
-#!/bin/bash, gcc -S $CFILE
+1 #!/bin/bash
+2 gcc -S $CFILE
 
