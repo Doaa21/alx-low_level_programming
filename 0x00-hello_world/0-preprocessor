@@ -1,4 +1,4 @@
-1#!/bin/bashi
+#!/bin/bash
+gcc -E $CFILE -o c
 
-2 gcc -E $CFILE -o c
 
