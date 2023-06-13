@@ -79,31 +79,4 @@
     * Entry point address
   * Format is identical to `readelf -h` (version `2.26.1`).
   * If an error occurs or the file is not an `ELF` file, the function displays a
-  corresponding error message to `stderr` and exits with a status value of `98`.
-
-
-
-
-
-
-===================================
-
-MAIN.H
-
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
-
-ssize_t read_textfile(const char *filename, size_t letters);
-int create_file(const char *filename, char *text_content);
-int append_text_to_file(const char *filename, char *text_content);
-
-#endif
-
-
-
-
+  corresponding error message to `stderr` and exits with a status value of '98'
